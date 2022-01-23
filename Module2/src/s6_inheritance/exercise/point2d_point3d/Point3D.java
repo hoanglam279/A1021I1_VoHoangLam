@@ -7,6 +7,7 @@ public class Point3D extends Point2D {
     }
 
     public Point3D(float z) {
+
         this.z = z;
     }
 
@@ -16,10 +17,12 @@ public class Point3D extends Point2D {
     }
 
     public float getZ() {
+
         return z;
     }
 
     public void setZ(float z) {
+
         this.z = z;
     }
 
