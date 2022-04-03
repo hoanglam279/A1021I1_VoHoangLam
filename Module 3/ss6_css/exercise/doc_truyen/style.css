@@ -1,0 +1,121 @@
+*{
+    text-align: center;
+    margin:0px;
+}
+body {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+header{
+    background:#06121e;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.navbar-item.has-dropdown {
+    align-items: stretch;
+}
+.navbar{
+    align-items: stretch;
+    display:flex;
+}
+.navbar-start{
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    padding-top:20px;
+}
+
+.navbar-item.has-dropdown {
+    padding: 0;
+}
+.navbar-item, .navbar-link {
+    color: #fff;
+    display: block;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+}
+.navbar-brand{
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+}
+.navbar-item{
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+a {
+    color: #428bca;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-end {
+    padding-top:10px;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.button.is-primary {
+    background-color: #cf2122;
+    border-color: transparent;
+    color: #fff;
+}
+.button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(0.5em - 1px) 1em;
+    text-align: center;
+    white-space: nowrap;
+}
+nav{
+    width:800px;
+    margin:0px 400px 0px 400px;
+    line-height:40px;
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+}
+#content{
+    /*width:800px;*/
+    /*margin:0px 400px 0px 400px;*/
+    background-color:#1c1e21;
+    height:800px;
+}
+footer{
+    margin-top: 120px;
+    text-align:center;
+    padding-top:60px;
+    height:200px;
+    background-color:#1c1e21;
+
+
+}
+.site-footer-wrapper {
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+ul li{
+    margin-top:40px;
+    list-style: none;
+    display: inline-block;
+    padding-right:80px;
+    font-size:20px;
+    font-family: 'Noto Serif';
+    color:#b5b5b5!important;
+}
