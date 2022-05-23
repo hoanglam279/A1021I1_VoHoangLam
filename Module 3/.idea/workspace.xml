@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7cbd2f-7de0-4cbe-b948-05ba601c6493" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/exercise/tao_layout_RWD/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/exercise/tao_layout_RWD/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/practice/su_dung_box_model/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/practice/su_dung_box_model/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/test/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/test/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/test/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/test/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_thiet_ke_bo_cuc/test/style1.css" afterDir="false" />
+    <list default="true" id="8e410708-00b3-4649-858a-159bcc4ac011" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/src/main/java/bean/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_MVC/exercise/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/exercise/product_discountt/product_discountt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/exercise/product_discountt/src/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/.idea/practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/Product/Product.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/ServerTime/ServerTime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/ServerTime/src/ServerTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/java-web-currency-converter/java-web-currency-converter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/java-web-currency-converter/src/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/simple_dictionary/simple_dictionary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/simple_dictionary/src/TranslationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/simple_login/simple_login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_web/practice/simple_login/src/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Module 3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,18 +44,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="27H9vg2Y2FdVPHiWxB6ebHTFkvK" />
+  <component name="ProjectId" id="28hcd2BrxmgZLWkvU7ojcS2WjRK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -39,32 +61,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lam\Desktop\Module 3\A1021I1_VoHoangLam\Module 3\ss7_thiet_ke_bo_cuc\test" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de7cbd2f-7de0-4cbe-b948-05ba601c6493" name="Changes" comment="" />
-      <created>1648966378896</created>
+      <changelist id="8e410708-00b3-4649-858a-159bcc4ac011" name="Changes" comment="" />
+      <created>1651672343918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648966378896</updated>
-      <workItem from="1648966381036" duration="3023000" />
-      <workItem from="1649071341602" duration="4207000" />
-      <workItem from="1649416181927" duration="5408000" />
-      <workItem from="1649847796241" duration="4774000" />
-      <workItem from="1650192526535" duration="632000" />
+      <updated>1651672343918</updated>
+      <workItem from="1651672345807" duration="164000" />
     </task>
     <servers />
   </component>
@@ -81,6 +91,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
