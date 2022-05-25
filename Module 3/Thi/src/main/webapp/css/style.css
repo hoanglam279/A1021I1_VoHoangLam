@@ -1,0 +1,21 @@
+table {
+    width: 100%
+}
+
+th {
+    background: red;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+.container {
+    max-width: 1328px;
+    margin: 0 auto;
+}
+
+tr {
+    height: 40px;
+}

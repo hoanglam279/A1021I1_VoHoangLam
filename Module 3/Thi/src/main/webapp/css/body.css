@@ -1,0 +1,124 @@
+a.button {
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: greenyellow;
+    text-decoration: none;
+}
+
+.head {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 20px;
+    color: #000;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.head-id {
+    width: 70px;
+}
+
+.head-name {
+    width: 300px;
+}
+
+.head-price, .head-quantity, .head-category {
+    width: 170px;
+}
+
+.head-color {
+    width: 250px;
+}
+
+.publisher-item {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 20px;
+    color: #000;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.edit, .delete {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+.edit {
+    background-color: greenyellow;
+}
+
+.delete {
+    background-color: red;
+}
+
+h3, h2 {
+    text-align: center;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(102, 245, 174);
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+.add a {
+    color: #000;
+    text-decoration: none;
+}
+
+#fname {
+    padding: 5px 10px;
+}
+
+.form-search {
+    display: flex;
+}
+
+.label {
+    width: 100px;
+    display: inline-block;
+}
+
+.form-add {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-add input {
+    width: 200px;
+    padding: 5px 20px;
+}
+
+.form-add div {
+    margin-bottom: 20px;
+}
+
+.select-ca {
+    width: 243px;
+    padding: 5px 20px;
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
