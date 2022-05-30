@@ -5,45 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a95bd4e1-18ae-4ba5-a2cc-864016874219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../currency_conversion/src/main/java/controller/ChangeMoneyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../currency_conversion/src/main/webapp/WEB-INF/app-conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../currency_conversion/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../currency_conversion/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/DictionaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/exercise/sandwitch-condiments/src/main/java/controllers/SandwichController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/exercise/sandwitch-condiments/src/main/java/models/Sandwich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/exercise/sandwitch-condiments/src/main/webapp/WEB-INF/app-conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/exercise/sandwitch-condiments/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/exercise/sandwitch-condiments/src/main/webapp/WEB-INF/views/condiment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/exercise/sandwitch-condiments/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_Views_Thymeleaf/practice/customer-management-thymleaf/src/main/java/com/codegym/service/ICustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../currency_conversion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/build/classes/java/main/controller/CurrencyConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/build/libs/currency_conversion-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/build/libs/currency_conversion-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/src/main/java/controller/CurrencyConversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/app-conf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_conversion/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency_conversion/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +179,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653316155629</updated>
       <workItem from="1653316158094" duration="156000" />
-      <workItem from="1653466135078" duration="1875000" />
+      <workItem from="1653466135078" duration="1939000" />
+      <workItem from="1653654322050" duration="1576000" />
     </task>
     <servers />
   </component>
@@ -221,5 +197,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
