@@ -16,8 +16,8 @@ public class ProductService implements IProductService {
         products.put(2, new Product(2, "SamSung A7", 6000, "SamSung"));
         products.put(3, new Product(3, "Oppo Neo 3", 300, "Oppo"));
         products.put(4, new Product(4, "Iphone 7", 80, "Apple"));
-        products.put(5, new Product(5, "Tủ lạnh", 500, ":LG"));
-        products.put(6, new Product(6, "Máy giặt", 900, "Toshiba"));
+        products.put(5, new Product(5, "Iphone 13", 500, "Apple"));
+        products.put(6, new Product(6, "SamSung A8", 900, "SamSung"));
 
     }
 

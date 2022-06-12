@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1874724-e510-4581-82cc-a022fa715cec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/exercise/validate_form_register/src/main/java/com/example/validate_form_register/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/exercise/validate_form_register/src/main/java/com/example/validate_form_register/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/exercise/validate_form_register/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/exercise/validate_form_register/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/custom-phone-validation/src/main/java/com/example/customphonevalidation/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/custom-phone-validation/src/main/java/com/example/customphonevalidation/model/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/custom-phone-validation/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/custom-phone-validation/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/validate-infor-user/src/main/java/com/example/validateinforuser/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/validate-infor-user/src/main/java/com/example/validateinforuser/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/validate-infor-user/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_validation/practice/validate-infor-user/src/main/resources/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/java/com/codegym/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/java/com/codegym/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_Views_Thymeleaf/exercise/product_management/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM/practice/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5_ORM/practice/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2ACiGsiHMXqdZk50LGJRKoYFM7s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1874724-e510-4581-82cc-a022fa715cec" name="Changes" comment="" />
+      <created>1654519877632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654519877632</updated>
+      <workItem from="1654519879965" duration="5299000" />
+      <workItem from="1654604622533" duration="661000" />
+      <workItem from="1654858029974" duration="3076000" />
+      <workItem from="1655027229353" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
