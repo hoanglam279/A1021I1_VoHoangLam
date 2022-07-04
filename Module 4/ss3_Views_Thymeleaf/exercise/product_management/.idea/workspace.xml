@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfdf3986-6b3d-49ee-81f2-67e6dc5dbeed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/java/com/codegym/restful_blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/resources/templates/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/resources/templates/category/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/resources/templates/category/list_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11_RESTful/exercise/restful_blog/src/main/resources/templates/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ss5_ORM/practice/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss5_ORM/practice/customer-management" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +175,7 @@
       <updated>1653659277793</updated>
       <workItem from="1653659279562" duration="2024000" />
       <workItem from="1653918492037" duration="1860000" />
+      <workItem from="1656337994519" duration="890000" />
     </task>
     <servers />
   </component>
