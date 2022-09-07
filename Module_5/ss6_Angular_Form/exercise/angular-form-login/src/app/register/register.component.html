@@ -1,0 +1,43 @@
+<div class="container  align-content-end" >
+  <h2>Sign up</h2>
+  <form [formGroup]="formRegister" (ngSubmit)="onSubmit()" novalidate class="container mt-4">
+    <p>
+      <label for="email">Email </label>
+      <input type="text" id="email" name="email" formControlName="email" placeholder="example@gmail.com">
+    </p>
+    <p *ngIf=" ( (formRegister.controls.email?.touched) && formRegister.controls.email.invalid)" style="color: red">Email không đúng</p>
+    <p>
+      <label>Password </label>
+      <input type="password"  formControlName="password">
+    </p>
+    <p *ngIf="(formRegister.controls.password?.touched) && formRegister.controls.password.invalid" style="color: red">Password không đúng định dạng</p>
+    <p>
+    <p>
+      <label>Confirm Password </label>
+      <input type="password"  formControlName="confirmPassword">
+    </p>
+    <p *ngIf="formRegister.hasError('gte')" style="color: red">Password không trùng khớp</p>
+
+    <p>
+      <label>Age </label>
+      <input type="text" defaultValue="18"  formControlName="age" placeholder=">=18">
+    </p>
+    <p *ngIf="(formRegister.controls.age?.touched) && formRegister.controls.age.invalid" style="color: red">Age >= 18</p>
+    <label>Gender </label>
+    <p class="form-group">
+      <input type="radio" value="male"  formControlName="gender" checked="checked"> Male
+      <input type="radio" value="female"  formControlName="gender"> Female
+    </p>
+
+    <p>
+      <label >Phone  </label>
+      <input type="text"  formControlName="phone" placeholder="+84">
+    </p>
+    <p *ngIf=" (formRegister.controls.phone?.touched) && formRegister.controls.phone.invalid" style="color: red" >sđt không đúng định dạng</p>
+    <p>
+    <p>
+      <button type="submit" >Submit</button>
+    </p>
+
+  </form>
+</div>
