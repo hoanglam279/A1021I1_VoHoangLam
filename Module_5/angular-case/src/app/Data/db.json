@@ -1,0 +1,246 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "type": {
+        "id": 4,
+        "name": "Platinum"
+      },
+      "name": "Hung",
+      "dayOfBirth": "2001/12/12",
+      "gender": "Nam",
+      "idCard": "123123123",
+      "phone": "+84905111234",
+      "email": "hung@gmail.com",
+      "address": "592 núi thành"
+    },
+    {
+      "id": 2,
+      "type": {
+        "id": 2,
+        "name": "Gold"
+      },
+      "name": "si",
+      "dayOfBirth": "2001/12/12",
+      "gender": "Nam",
+      "idCard": "123123123",
+      "phone": "0905111234",
+      "email": "si@gmail.com",
+      "address": "592 si thành"
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Silver"
+    },
+    {
+      "id": 2,
+      "name": "Gold"
+    },
+    {
+      "id": 3,
+      "name": "Diamond"
+    },
+    {
+      "id": 4,
+      "name": "Platinum"
+    }
+  ],
+  "facility": [
+    {
+      "id": 1,
+      "facilityName": "Villa Beach Front",
+      "are": 25000,
+      "cost": 20000000,
+      "maxPeople": 2,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-M-1047x563.jpg"
+    },
+    {
+      "id": 2,
+      "facilityName": "House Princess 05",
+      "are": 30000,
+      "cost": 12000000,
+      "maxPeople": 4,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 2,
+        "name": "House"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-M-1047x563.jpg"
+    },
+    {
+      "id": 3,
+      "facilityName": "Room Twin 01",
+      "are": 27000,
+      "cost": 14000000,
+      "maxPeople": 8,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 3,
+        "name": "Room"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_-Lagoon-Superior-double-bed-1047x563.jpg"
+    },
+    {
+      "id": 4,
+      "facilityName": "Villa Beach Front",
+      "are": 25000,
+      "cost": 20000000,
+      "maxPeople": 2,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-M-1047x563.jpg"
+    },
+    {
+      "id": 5,
+      "facilityName": "House Princess 01",
+      "are": 30000,
+      "cost": 12000000,
+      "maxPeople": 4,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 3,
+        "name": "Room"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-M-1047x563.jpg"
+    },
+    {
+      "id": 6,
+      "facilityName": "Room Twin 01",
+      "are": 27000,
+      "cost": 14000000,
+      "maxPeople": 8,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 3,
+        "name": "Room"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_-Lagoon-Superior-double-bed-1047x563.jpg"
+    },
+    {
+      "id": 7,
+      "facilityName": "Villa Beach Front",
+      "are": 25000,
+      "cost": 20000000,
+      "maxPeople": 2,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-M-1047x563.jpg"
+    },
+    {
+      "id": 8,
+      "facilityName": "House Princess 01",
+      "are": 30000,
+      "cost": 12000000,
+      "maxPeople": 4,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 2,
+        "name": "House"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-M-1047x563.jpg"
+    },
+    {
+      "id": 9,
+      "facilityName": "Room Twin 01",
+      "are": 27000,
+      "cost": 14000000,
+      "maxPeople": 8,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 3,
+        "name": "Room"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_-Lagoon-Superior-double-bed-1047x563.jpg"
+    },
+    {
+      "id": 10,
+      "facilityName": "Room Twin 01",
+      "are": 27000,
+      "cost": 14000000,
+      "maxPeople": 8,
+      "rentTypeId": 2,
+      "facilityTypeId": {
+        "id": 3,
+        "name": "Room"
+      },
+      "standardRoom": "vip",
+      "descriptionOtherConvenience": "Có hồ bơi",
+      "poolArea": 500,
+      "numberOffloors": 4,
+      "facalityFree": "ko có",
+      "facalityImg": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_-Lagoon-Superior-double-bed-1047x563.jpg"
+    }
+  ],
+  "facilityType": [
+    {
+      "id": 1,
+      "name": "Villa"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Room"
+    }
+  ]
+}

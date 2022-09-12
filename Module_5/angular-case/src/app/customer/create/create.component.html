@@ -1,0 +1,76 @@
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img style="height: 250px" src="assets/img/Screenshot%202022-08-11CUSTOMER.jpg" class="d-block w-100"
+           alt="...">
+    </div>
+
+  </div>
+</div>
+<div class="body_center_2 container">
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <form [formGroup]="customerForm" >
+    <div style=" display: flex;justify-content: center;" class="row">
+      <div class="col-6">
+        <div class="col-12">Name</div>
+        <div class="col-12">
+          <input type="text" class="form-control" formControlName="name">
+          <span style="color: red" *ngIf="customerForm.controls.name.hasError('required') && customerForm.controls.name.touched">=> Please input !</span>
+          <span style="color: red" *ngIf="customerForm.controls.name.hasError('pattern') && customerForm.controls.name.touched">=> Name wrong format!</span>
+        </div>
+        <div class="col-12">Customer type</div>
+        <div class="col-12">
+          <select class="form-select" formControlName="type">
+            <option value="" selected>Select</option>
+            <option selected *ngFor="let item of customerType" [ngValue]="item.id">{{item.name}}</option>
+            <span style="color: red" *ngIf="customerForm.controls.type.hasError('required') && customerForm.controls.type.touched">=> Please input !</span>
+          </select>
+        </div>
+        <div class="col-12">Gender</div>
+        <div class="col-12">
+          <select class="form-select" formControlName="gender">
+            <option value="Nữ">Nữ</option>
+            <option value="Nam">Nam</option>
+          </select>
+          <span style="color: red" *ngIf="customerForm.controls.gender.hasError('required') && customerForm.controls.gender.touched">=> Please input !</span>
+        </div>
+        <div class="col-12">Address</div>
+        <div class="col-12">
+          <input type="text" class="form-control" formControlName="address">
+          <span style="color: red" *ngIf="customerForm.controls.address.hasError('required') && customerForm.controls.address.touched">=> Please input !</span>
+        </div>
+        <div class="col-12">Date of birth</div>
+        <div class="col-12">
+          <input type="date" class="form-control" formControlName="dayOfBirth">
+          <span style="color: red" *ngIf="customerForm.controls.dayOfBirth.hasError('required') && customerForm.controls.dayOfBirth.touched">=> Please input !</span>
+        </div>
+        <div class="col-12">Email</div>
+        <div class="col-12">
+          <input type="text" class="form-control" formControlName="email">
+          <span style="color: red" *ngIf="customerForm.controls.email.hasError('required') && customerForm.controls.email.touched">=> Please input !</span>
+          <span style="color: red" *ngIf="customerForm.controls.email.hasError('email') && customerForm.controls.email.touched">=> Email wrong format !</span>
+          <div class="col-12">Id card</div>
+          <div class="col-12">
+            <input type="text" class="form-control" formControlName="idCard">
+            <span style="color: red" *ngIf="customerForm.controls.idCard.hasError('required') && customerForm.controls.idCard.touched">=> Please input !</span>
+            <span style="color: red" *ngIf="customerForm.controls.idCard.hasError('pattern') && customerForm.controls.idCard.touched">=> idCard wrong format!</span>
+          </div>
+          <div class="col-12">Phone number</div>
+          <div class="col-12">
+            <input type="text" class="form-control" formControlName="phone">
+            <span style="color: red" *ngIf="customerForm.controls.phone.hasError('required') && customerForm.controls.phone.touched">=> Please input !</span>
+            <span style="color: red" *ngIf="customerForm.controls.phone.hasError('pattern') && customerForm.controls.phone.touched">=> Phone wrong format!(+84)</span>
+          </div>
+          <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+          <div class="col-12">
+            <button style="margin-right: 5px" class="btn btn-outline-success" (click)="submit()" [disabled]="customerForm.invalid" >Create</button>
+            <button routerLink="/customer" class="btn btn-outline-danger">Exit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+</div>

@@ -1,0 +1,165 @@
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img style="height: 250px" src="assets/img/Screenshot%202022-08-11%2014084722.jpg" class="d-block w-100"
+           alt="...">
+    </div>
+
+  </div>
+</div>
+<div class="body_center_2 container">
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div style="text-align: center">
+    <a routerLink="/facility/create">
+      <button class="btn btn-outline-success" type="button">CREATE</button>
+    </a>
+  </div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="row">
+    <div class="card_facility col-lg-4" *ngFor="let item of facilities;index as i ">
+      <div class="card " style="width: 100%;">
+        <img style="height: 220px;" src="{{item.facalityImg}}"
+             class="card-img-top"
+             alt="...">
+        <div class="card-body">
+          <div class="row">
+            <h5 class="card-title">{{item.facilityName}}</h5>
+            <div class="col-lg-6">
+              <p class="card-text">Room size: {{item.are}}M²</p>
+            </div>
+            <div class="col-lg-6">
+              <p class="card-text">Price: {{item.cost}}$</p>
+            </div>
+            <p class="card-text">size: {{item.maxPeople}}</p>
+
+
+            <div class="col-lg-4">
+              <button [routerLink]="['/facility/edit',item.id]" style="width: 100%" type="button"
+                      class="btn btn-outline-primary">
+                Edit
+              </button>
+            </div>
+            <div class="col-lg-4">
+              <button style="width: 100%" type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                      data-bs-target="#a" (click)="displayModalDetail(item.id)">
+                Detail
+              </button>
+            </div>
+            <div class="col-lg-4">
+              <button (click)="openDelete(item.id,item.facilityName)" style="width: 100%" type="button"
+                      class="btn btn-outline-danger" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="margin-top: 110px;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">DELETE</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          bạn có muốn xóa {{name}}
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn btn-outline-danger" data-bs-dismiss="modal" (click)="delete(id)">Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal detail-->
+
+  <div class="modal fade" id="a" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header row" style="display: flex;justify-content: space-evenly;">
+          <div class="col-8">
+            <img style="height: 130px;width: 100%" src="{{faclityObjModal.facalityImg}}"
+                 class="card-img-top"
+                 alt="..." style="text-align: center">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-4 ">ID</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.id}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Name</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.facilityName}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">ARE</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.are}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Cost</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.cost}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Max People</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.maxPeople}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Facility Type</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.facilityTypeId.name}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">RentType</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.rentTypeId}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Standard Room</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.standardRoom}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Description</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.descriptionOtherConvenience}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Pool Area</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.poolArea}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4">Number Off loors</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.numberOffloors}}</label>
+            </div>
+            <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-4"> Free</div>
+            <div class="col-8">
+              <label class="form-control">{{faclityObjModal.facalityFree}}</label>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn btn-outline-danger " data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+</div>
+
+

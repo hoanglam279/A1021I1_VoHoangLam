@@ -1,0 +1,88 @@
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img style="height: 250px" src="assets/img/Screenshot%202022-08-11%2014084722.jpg" class="d-block w-100"
+           alt="...">
+    </div>
+
+  </div>
+</div>
+<div class="body_center_2 container">
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div>
+    <form [formGroup]="facilityForm" (ngSubmit)="editFacility(id)">
+      <div style=" display: flex;justify-content: center;" class="row">
+        <div class="col-8">
+          <div>
+            <div class="col-6">Facility type</div>
+            <div class="col-12">
+              <select class="form-control" formControlName="facilityTypeId">
+                <option *ngFor="let item of facilityTypes" [ngValue]="item.id">{{item.name}}</option>
+              </select>
+            </div>
+            <div class="col-6">Name</div>
+            <div class="col-12">
+              <input class="form-control" type="text" formControlName="facilityName">
+            </div>
+            <div class="col-6">Cost</div>
+            <div class="col-12">
+              <input type="text" class="form-control" formControlName="cost">
+            </div>
+            <div class="col-6">Area</div>
+            <div class="col-12">
+              <input class="form-control" type="text" formControlName="are">
+            </div>
+            <div class="col-6">Max people</div>
+            <div class="col-12">
+              <input class="form-control" type="text" formControlName="maxPeople">
+            </div>
+            <div class="col-6">Rent type</div>
+            <div class="col-12">
+              <select class="form-control" formControlName="rentTypeId">
+                <option value="1">Ngày</option>
+                <option value="2">Tháng</option>
+                <option value="3">Năm</option>
+              </select>
+            </div>
+            <div>
+              <div class="col-6">Standard room</div>
+              <div class="col-12">
+                <input type="text" class="room form-control" formControlName="standardRoom">
+              </div>
+            </div>
+            <div class="col-6">Description other convenience</div>
+            <div class="col-12">
+              <input class="room form-control" type="text" formControlName="descriptionOtherConvenience">
+            </div>
+            <div class="col-6">Pool area</div>
+            <div class="col-12">
+              <input type="text" class="room house form-control" formControlName="poolArea">
+            </div>
+            <div class="col-6">Number of Floors</div>
+            <div class="col-12 room">
+              <input type="text" class="room form-control" formControlName="numberOffloors">
+            </div>
+            <div class="col-6">Facility free</div>
+            <div class="col-12">
+              <input type="text" class="villa house form-control" formControlName="facalityFree">
+            </div>
+            <div class="col-6">facality Img</div>
+            <div class="col-12">
+              <input type="text" class="villa house form-control" formControlName="facalityImg">
+            </div>
+
+            <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+            <div class="col-6">
+              <button style="margin-right: 5px" class="btn btn-outline-success">Edit</button>
+              <button routerLink="/facility" class="btn btn-outline-danger">Exit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+</div>

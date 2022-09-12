@@ -1,0 +1,62 @@
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img style="height: 250px" src="assets/img/Screenshot%202022-08-11contract.jpg" class="d-block w-100"
+           alt="...">
+    </div>
+
+  </div>
+</div>
+<div class="body_center_2 container">
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <form [formGroup]="contractForm" (ngSubmit)="submit()">
+    <div style=" display: flex;justify-content: center;" class="row">
+      <div class="col-8">
+        <div>
+            <div class="col-6">Facility</div>
+            <div class="col-12">
+              <select formControlName="facility" class="form-control">
+<!--                <option *ngFor="let item of facility" [ngValue]="item">{{item.facilityName}}</option>-->
+              </select>
+          </div>
+            <div class="col-6">Customer</div>
+            <div class="col-12 ">
+              <select formControlName="customer" class="form-control">
+<!--                <option *ngFor="let item of customer" [ngValue]="item">{{item.name}}</option>-->
+              </select>
+            </div>
+            <div class="col-6">Start date</div>
+            <div class="col-12">
+              <input type="date" class="form-control" formControlName="startDate">
+            </div>
+            <div class="col-6">End date</div>
+            <div class="col-12">
+              <input class="form-control" type="date" formControlName="endDate">
+            </div>
+            <div class="col-6">Deposit</div>
+            <div class="col-12">
+              <input class="form-control" type="number" formControlName="deposit">
+            </div>
+            <div class="col-6">Total money</div>
+            <div class="col-12">
+              <input class="form-control" type="number" formControlName="totalMoney">
+            </div>
+          <span style="color: red" *ngIf="contractForm.controls.totalMoney.hasError('pattern') && contractForm.controls.totalMoney.touched">=> totalMoney wrong format!</span>
+          <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span>
+          </div>
+            <div class="col-6">
+              <button class="btn btn-outline-success">Create</button>
+              <button routerLink="/contract"  class="btn btn-outline-danger">Exit</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+
+
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+  <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+</div>
