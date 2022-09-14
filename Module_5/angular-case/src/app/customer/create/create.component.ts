@@ -28,10 +28,12 @@ export class CreateComponent implements OnInit {
               private type: CustomerTypeService,
               private router: Router,
               private toast: ToastrService) {
+    console.log(this.customerType);
   }
 
   ngOnInit(): void {
     this.getCustomerType();
+    console.log(this.customerType);
   }
 
   submit() {
@@ -55,6 +57,7 @@ export class CreateComponent implements OnInit {
     this.type.getAll().subscribe(customerType => {
       this.customerType = customerType;
     });
+
   }
 
 }

@@ -17,9 +17,7 @@
           <div>
             <div class="col-6">Facility type</div>
             <div class="col-12">
-              <select class="form-control" formControlName="facilityTypeId"
-                      (change)="changeFacility($event.target.value)">
-                <option value="" selected>Select</option>
+              <select class="form-control" formControlName="facilityTypeId">
                 <option *ngFor="let item of facilityTypes" [value]="item.id">{{item.name}}</option>
               </select>
             </div>
