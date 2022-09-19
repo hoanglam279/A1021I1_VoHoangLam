@@ -1,20 +1,6 @@
 {
   "customer": [
     {
-      "id": 1,
-      "type": {
-        "id": 4,
-        "name": "Platinum"
-      },
-      "name": "Lam1",
-      "dayOfBirth": "2000-03-30",
-      "gender": "Nam",
-      "idCard": "123123123",
-      "phone": "+84905111234",
-      "email": "lam@gmail.com",
-      "address": "592 núi thành"
-    },
-    {
       "id": 2,
       "type": {
         "id": 2,
@@ -27,6 +13,34 @@
       "phone": "+84905111234",
       "email": "lam2@gmail.com",
       "address": "592  Phan Dang Luu"
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "Diamond"
+      },
+      "name": "Lâm",
+      "dayOfBirth": "2000-09-30",
+      "gender": "Nam",
+      "idCard": "1234567890",
+      "phone": "+84836707111",
+      "email": "hoanglam92h1@gmail.com",
+      "address": "Nam Kỳ Khởi Nghĩa",
+      "id": 3
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "Gold"
+      },
+      "name": "Lam",
+      "dayOfBirth": "2000-03-01",
+      "gender": "Nam",
+      "idCard": "1234567890",
+      "phone": "+84836707111",
+      "email": "lam2@gmail.com",
+      "address": "Da Nang",
+      "id": 4
     }
   ],
   "customerType": [
@@ -68,7 +82,7 @@
     },
     {
       "id": 2,
-      "facilityName": "House Princess 05",
+      "facilityName": "House abc",
       "are": 30000,
       "cost": 12000000,
       "maxPeople": 4,
