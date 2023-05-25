@@ -1,8 +1,6 @@
 package com.example.demorestapi.Service;
 
-import com.example.demorestapi.Model.Category;
 import com.example.demorestapi.Model.Product;
-import com.example.demorestapi.Repository.CategoryRepository;
 import com.example.demorestapi.Repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
@@ -11,12 +9,9 @@ import java.util.List;
 @Service
 public class ProductService {
     private final ProductRepository productRepository;
-    private final CategoryRepository categoryRepository;
 
-
-    public ProductService(ProductRepository productRepository, CategoryRepository categoryRepository) {
+    public ProductService(ProductRepository productRepository) {
         this.productRepository = productRepository;
-        this.categoryRepository = categoryRepository;
     }
 
     public List<Product> getAllProducts() {
@@ -35,7 +30,16 @@ public class ProductService {
         productRepository.deleteById(id);
     }
 
-    public List<Category> getAllCategories() {
-        return categoryRepository.findAll();
+    public boolean hasProductsByCategoryId(Long categoryId) {
+        return productRepository.existsByCategoryId(categoryId);
     }
+
+    public boolean existsProductById(Long id) {
+        return productRepository.existsById(id);
+    }
+
+    public boolean isProductCodeExists(String productCode) {
+        return productRepository.existsByProductCode(productCode);
+    }
+
 }
